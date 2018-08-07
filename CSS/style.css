@@ -1,0 +1,361 @@
+/* @import url("CTA button.css") */
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+main{
+    padding-top:60px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* //////////////////////////////////////////////////
+
+
+**************** LANDING PAGE (HOME) **************
+
+///////////////////////////////////////////////////*/
+
+header {
+    position: fixed;
+    top: 0;
+    right:0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-wrap:wrap;
+
+}
+
+header .header-brand {
+    font-family: lato;
+    font-size: 20px;
+    font-weight: 700;
+    color: #111;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    padding:20px 0px 0px 20px; 
+}
+
+header nav {
+    margin-left:auto;
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    font-family: lato;
+    font-size: 16px;
+    color: #111;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+header a {
+    margin-right:auto;
+}
+
+main .hero-banner {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-image: url('../img/1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    display: table;
+}
+
+.vertical-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+main .hero-banner h1 {
+    font-family: lato;
+    font-size: 60px;
+    font-weight:900;
+    color: #fff;
+    text-shadow: 2px 2px 8px #111;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+
+main .hero-banner h2 {
+    width: 80%;
+    color: #fff;
+    margin: 0 auto;
+    line-height: 1.4;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+main .hero-banner p {
+    border: solid 2px white;
+    width: 30%;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.4;
+    margin-top: 40px;
+    font-style: italic;
+}
+
+.projects div{
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background: #f2f2f2;
+}
+
+.projects h1{
+   text-transform: uppercase;
+}
+.projects p{
+    font-family: lato;
+    width:80%;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-size: 20px;
+}
+.projects div h3{
+    font-family: lato;
+    font-size: 24px;
+    font-weight: 200;
+    color: #111;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+
+/* //////////////////////////////////////////////////
+
+
+****************** PORTFOLIO ************************
+
+///////////////////////////////////////////////////*/
+
+
+
+.portfolio-links {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.wrapper div {
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.portfolio-links h1 {
+   text-transform: uppercase;
+}
+
+.portfolio-links p {
+    font-family: lato;
+    width:80%;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-size: 20px;
+}
+
+.portfolio-links .portfolio-link {
+    width: 240px;
+    height: 240px;
+    margin: 20px 10px 0px;
+    background-color: #e3e3e3;
+}
+
+.portfolio-links .portfolio-link p {
+    padding-top: 25%;
+    font-family: lato;
+    width:80%;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-size: 20px;
+    text-align: center;
+}
+
+.portfolio div{
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background: #f2f2f2;
+}
+
+/* //////////////////////////////////////////////////
+
+
+****************** ABOUT ************************
+
+///////////////////////////////////////////////////*/
+
+.about {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* //////////////////////////////////////////////////
+
+
+****************** FOOTER ***************************
+
+///////////////////////////////////////////////////*/
+
+footer{
+    width: calc(100%-80px);
+    padding: 20px 40px;
+    background: #f2f2f2;
+    margin-top: 20px;
+    text-align: center;
+}
+footer img {
+    width: 20px;
+    margin: 0 10px;
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+    .wrapper {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    header .header-brand {
+        display: block;
+        text-align: center;
+    }
+
+    main .hero-banner {
+        width: 100%;
+        height: 1100px;
+    }
+
+    main .hero-banner h1 {
+        font-size: 150px;
+        font-weight:900;
+        color: #fff;
+        text-align: center;
+        text-shadow: 2px 2px 8px #111;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    main .hero-banner h2{
+        font-size: 40px;
+        display:block;
+        width:650px;
+        margin: 0 auto;
+    }
+
+    .projects div{
+        margin: 16px 16px 0;
+        height: 200px;
+        background: #f2f2f2;
+        float: left;
+    }
+ 
+    .projects-square {
+        width: calc(25% - 48px) !important;
+    }
+
+    .projects-rectangle {
+        width: calc(50% - 60px) !important;
+    }
+
+    .clearfix {
+        overflow: auto;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    /* Portfolio */
+
+    .portfolio-links {
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    
+    .portfolio-links h1 {
+       text-transform: uppercase;
+    }
+    
+    .portfolio-links p {
+        font-family: lato;
+        width:80%;
+        margin: 0 auto;
+        line-height: 1.8;
+        font-size: 20px;
+    }
+    
+    .portfolio-links .portfolio-link {
+        float: left;
+        width: 440px;
+        height: 240px;
+        margin: 20px 16px 0px;
+        background-color: #e3e3e3;
+    }
+    
+    .portfolio-links .portfolio-link p {
+        padding-top: 25%;
+        font-family: lato;
+        width:80%;
+        margin: 0 auto;
+        line-height: 1.8;
+        font-size: 20px;
+        text-align: center;
+    }
+    /* About */
+
+    .about {
+        width: 90%;
+        margin: 0 auto;
+        text-align: left !important;
+    }
+
+    .column-1 {
+        width: 50%;
+        float:left;
+        /* text-align:left; */
+    }
+
+
+    .column-2 {
+        width: 50%;
+        float:right;
+    }
+}
