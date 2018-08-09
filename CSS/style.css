@@ -223,6 +223,104 @@ main .hero-banner p {
     text-align: center;
 }
 
+/* //////////////////////////////////////////////////
+
+
+******************  CONTACT ************************
+
+///////////////////////////////////////////////////*/
+
+ .contact h1 {
+    text-transform: uppercase;
+    font-size: 44px;
+ }
+
+ .contact p {
+    text-align: center;
+ }
+
+ .form-container {
+    text-align: center;
+ }
+
+ #form {
+     width: 80%;
+ }
+
+.contact h1 {
+    width:80%;
+    margin:0px auto 15px;
+    padding-top: 30px;
+    padding: 0px auto;
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  .contact p {
+    width:80%;
+    margin:30px auto;
+    line-height: 1.5em;
+  }
+  
+  .form-container{
+    margin:50px auto;
+  }
+  
+  .page-heading {
+    padding-top: 50px;
+    margin-left:30px;
+    font-size: 2em;
+  }
+  
+  .contact-content{
+    margin: 10px auto;
+    width:80%;
+    letter-spacing:0.05em;
+  }
+  
+  .contact-heading{
+    text-align: center;
+    font-size: 40px;
+  
+  }
+  
+  .label{
+    display: block;
+    margin-bottom:100px;
+  }
+  
+  .span{
+    display:block;
+  }
+  
+  .contact-info label{
+    width:48%;
+    margin:2%;
+  }
+  
+  input, textarea{
+    width:calc(80vw - 20px);
+    height: 30px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  textarea{
+    background:lightgrey;
+    height:50vw;
+  }
+  
+  .button-holder{
+    text-align: center;
+    background: Transparent;
+    outline: none;
+    font-size: 30px;
+  }
+
 
 /* //////////////////////////////////////////////////
 
@@ -353,9 +451,11 @@ footer img {
         /* text-align:left; */
     }
 
-
     .column-2 {
         width: 50%;
         float:right;
     }
+
+    
+
 }
