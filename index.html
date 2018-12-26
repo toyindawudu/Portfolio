@@ -7,40 +7,44 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="./JS/main.js"></script>
     <title>Document</title>
 </head>
 <body>
     <header>
-        <a href="index.html"class="header-brand">TD</a>
-        <nav>
+        <nav class="sticky">
+            <div class="logo"><a href="index.html"class="header-brand" id="myHeader">TD</a></div> <!-- You can replace this with a logo  --> 
             <ul>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-
     </header>
+
     <main>
         <section class="hero-banner">
             <div class="vertical-center">
                 <h1>Front-End Developer</h1>
                 <h2> I help companies, startups create and deliver clever and thoughtful web designs and build impactful websites.</h2>
-                <a href="portfolio.html"><p>View Portfolio</p></a>
+               <button type="button" class="btn btn-outline-secondary center-block align-middle"><a href="portfolio.html"><p>View Portfolio</p></a> </button>
             </div>
         </section>
         
         <div class="wrapper clearfix">
             <section class="projects">
                 <h1>Work</h1>
-                <p> I pre-dominately design and build web applications and websites. I also enjoy getting involved in User Experience (UX) projects when and where possible. Here are a few projects that I have either  built, designed or created the prototype.</p>
-                <a href="Titilola.html"><div class="projects-square"><h3>Titilola Dawudu</h3></div></a>
+                <p> I pre-dominately design and build web applications and websites. I also enjoy getting involved in User Experience (UX) projects when and where possible. Here are a few project case studies that I have either  built, designed or created the prototype.</p>
+                <a href="titilola-project.html"><div class="projects-square"><h3>Titilola Dawudu</h3></div></a>
                 <a href=""><div class="projects-rectangle"><h3>Etheral Design Agency</h3></div></a>
                 <a href=""><div class="projects-square"><h3>Varren Wade</h3></div></a>
                 <a href=""><div class="projects-rectangle"><h3>Linvoy Primus</h3></div></a>
                 <a href=""><div class="projects-rectangle"><h3>Etheral</h3></div></a>
             </section>
         </div>
+
+       
 
         <footer class="footer-sm">
             <a href="mailto:hello@toyindawudu.co.uk"><img src="./assests/contact.svg" alt="email icon"></a>
@@ -50,5 +54,6 @@
         </footer>
         
     </main> 
+<script src="./JS/main.js"></script>
 </body>
 </html>
